@@ -1,0 +1,10 @@
+[project]
+name = "planie-backend"
+version = "0.1.0"
+description = "Backend for Plantie app"
+readme = "README.md"
+dependencies = [
+    "fastapi>=0.115.12",
+    "ruff>=0.11.2",
+    "uvicorn>=0.34.0",
+]
