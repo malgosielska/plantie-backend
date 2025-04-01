@@ -49,3 +49,11 @@ Before commiting your changes format your files with ruff:
 ```bash
 ruff format .
 ```
+
+### Downloading dataset
+1. Download dataset from 
+https://www.kaggle.com/datasets/mohitsingh1804/plantvillage
+2. Add downloaded zip file to repo and rename it to plantvillage_dataset.zip
+3. Unzip file and rename it to plantvillage_dataset
+
+no worries, `.gitignore` file will not allow you to push data to GH

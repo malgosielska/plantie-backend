@@ -45,3 +45,9 @@ build/
 
 # Windows
 Thumbs.db
+
+# Dataset
+plantvillage_dataset.zip
+plantvillage_dataset/
+**/plantvillage_dataset/
+**/plantvillage_dataset.zip
