@@ -1,4 +1,4 @@
-# Plant Disease Detection API
+# Plantie - Plant Disease Detection API
 
 This is a FastAPI application for plant disease detection using machine learning. The backend leverages a Convolutional Neural Network (CNN) model to classify plant diseases based on images.
 

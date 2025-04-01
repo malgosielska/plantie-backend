@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 
-app = FastAPI(title="Plant Disease Detection API")
+app = FastAPI(title="Plantie - Plant Disease Detection API")
 
 
 @app.get("/")
