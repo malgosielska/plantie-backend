@@ -11,9 +11,6 @@ from app.utils.images import load_image
 
 predict_router = APIRouter(prefix="/predict", tags=["predict"])
 
-model = load_model(MODEL_PATH, CLASSES_COUNT)
-class_indices = load_class_indices(CLASS_INDICES_PATH)
-
 
 @predict_router.post("/")
 async def predict_image(file: UploadFile = File(...)):
