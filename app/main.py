@@ -7,6 +7,6 @@ app = FastAPI(title="Plantie - Plant Disease Detection API")
 app.include_router(predict_router)
 
 
-@app.get("/")
-def home():
-    return {"message": "Plant Disease Detection API is running!"}
+# @app.get("/")
+# def home():
+#     return {"message": "Plant Disease Detection API is running!"}
