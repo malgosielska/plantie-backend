@@ -55,5 +55,8 @@ ruff format .
 https://www.kaggle.com/datasets/mohitsingh1804/plantvillage
 2. Add downloaded zip file to repo and rename it to plantvillage_dataset.zip
 3. Unzip file and rename it to plantvillage_dataset
+4. run plant_disease_classification/data_balancing.ipynb notebook to balance our data
+5. for any further work use plantvillage_dataset/train_balanced dataset 
 
 no worries, `.gitignore` file will not allow you to push data to GH
+
