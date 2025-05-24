@@ -1,44 +1,58 @@
 # data from https://plantvillage.psu.edu/plants
 # if some data was missing, i generated it with the help of chatgpt
-HEALTHY_MESSAGE_MANAGEMENT = "You're doing a great job, keep it up!"
+HEALTHY_MESSAGE_MANAGEMENT = "Your plant looks great! Keep providing it with enough sunlight, clean soil, fresh air, and water it regularly to maintain its healthy state."
 
 managements = {
-    "Apple___Apple_scab": "Remove all leaves dropped from tree in the fall and compost to prevent any diseases surviving in debris; application of zinc and fertilizer grade urea in the Fall may be necessary to speed leaf drop, lime should then be added to fallen leaves; fungicide application may be necessary in areas where leaves remain wet for periods in excess of 9 hours; fungicides such as copper soaps and Bordeaux mixture should be applied if there is a chance of wet period as soon as leaf tips emerge.",
-    "Apple___Black_rot": "Remove dead wood, mummified fruit and cankers from trees to reduce spread of disease; burn any prunings that have been made from the tree; disease can be controlled by applying fungicides from silver tip to harvest.",
-    "Apple___Cedar_apple_rust": "Plant resistant varieties where possible; remove nearby red cedar; if growing susceptible varieties in proximity to red cedar follow a fungicide program.",
+    "Apple___Apple_scab": "Rake and remove fallen leaves in autumn to prevent the disease from surviving the winter. You can speed up leaf drop with a mix of fertilizer and zinc, and sprinkle lime over the leaves. In spring, apply natural fungicides like copper soap or Bordeaux mix when new leaves start to grow, especially if rain is expected.",
+    "Apple___Black_rot": "Prune and remove dead wood, shriveled fruit, or blackened branches. Burn or discard them away from your garden. Apply a fungicide regularly during the growing season, starting early to stop the spread before it starts.",
+    "Apple___Cedar_apple_rust": "If possible, choose rust-resistant apple varieties. Remove any nearby red cedar trees, which help the fungus survive. If both types of trees are close, follow a preventive fungicide schedule to protect your apples.",
     "Apple___healthy": HEALTHY_MESSAGE_MANAGEMENT,
+
     "Blueberry___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Cherry_(including_sour)___Powdery_mildew": "Management of powdery mildew in cherry is reliant on the application of appropriate fungicides and cultural practices which promote good air circulation around tree canopies to lower humidity",
+
+    "Cherry_(including_sour)___Powdery_mildew": "Improve air flow around your trees by pruning branches that are too close together. This lowers humidity, which the fungus needs. If the disease persists, apply a fungicide designed for powdery mildew.",
     "Cherry_(including_sour)___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": "Rotate crops and use resistant hybrids; ensure adequate spacing and nitrogen fertilization; apply fungicide if necessary based on disease forecasting models and crop stage.",
-    "Corn_(maize)___Common_rust_": "Plant resistant hybrids if available; monitor for early signs and apply fungicide during early stages if rust is spreading rapidly under favorable conditions.",
-    "Corn_(maize)___Northern_Leaf_Blight": "Use resistant hybrids and rotate crops; till fields to bury infected crop debris; apply fungicides if disease pressure is high during early reproductive stages.",
+
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": "Rotate your crops every season and plant disease-resistant varieties. Ensure your corn has enough space and nutrients. If symptoms appear and weather is warm and wet, apply fungicide based on local crop advice.",
+    "Corn_(maize)___Common_rust_": "Plant rust-resistant corn when possible. Keep an eye out for early rust symptoms, especially in warm, humid conditions. Apply fungicide if rust spreads quickly.",
+    "Corn_(maize)___Northern_Leaf_Blight": "Use blight-resistant corn seeds. After harvest, till the soil to bury old leaves. Start fungicide treatments if blight shows up early and is spreading fast.",
     "Corn_(maize)___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Grape___Black_rot": "Remove all mummified fruit from vines during dormant pruning; cultivate soil during bud break to bury mummies and reduce inoculant; application of appropriate fungicides can help control the disease",
-    "Grape___Esca_(Black_Measles)": "Till date there is no effective method to control this disease. Remove the infected berries, leaves and trunk and destroy them. Protect the prune wounds to minimize fungal infection using wound sealant or essential oil or suitable fungicides.",
-    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": "Fungicides sprayed for other diseases in the season may help to reduce this disease.",
+
+    "Grape___Black_rot": "Remove any dried fruit from the vine while pruning. Cultivate the soil to bury any leftover berries. Start spraying fungicides early in the season to prevent infection.",
+    "Grape___Esca_(Black_Measles)": "Unfortunately, there's no cure. Remove and destroy infected grapes, leaves, and branches. Protect pruning wounds using natural oils, wound sealant, or safe fungicides to avoid more fungal infections.",
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": "Use fungicide sprays already in your vineyard program, as they may also help reduce leaf blight. Keep the area clean and avoid excessive moisture on leaves.",
     "Grape___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Orange___Haunglongbing_(Citrus_greening)": "Remove and destroy infected trees promptly to prevent spread; use disease-free nursery stock; control the Asian citrus psyllid with insecticides and introduce natural predators where feasible; avoid movement of plant material from affected regions.",
-    "Peach___Bacterial_spot": "Avoid planting susceptible peach varieties in areas where disease is known; once disease is visible it can be difficult to control, protective copper applications in the Fall prior to leaf drop and/or application in early growing season may help prevent the disease; care should be taken as peach trees are very sensitive to copper",
+
+    "Orange___Haunglongbing_(Citrus_greening)": "Immediately remove and destroy any infected trees to protect the others. Always use healthy nursery plants. Control pests like citrus psyllids with safe insecticides and natural predators. Avoid moving citrus plants between regions.",
+    
+    "Peach___Bacterial_spot": "Avoid planting sensitive peach varieties in areas where the disease is common. Apply a protective copper spray in fall or early spring. Be gentle—peach trees can be sensitive to copper.",
     "Peach___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Pepper,_bell___Bacterial_spot": "Use disease free planting material; remove and destroy all crop debris after harvest, or plow material deeply under soil.",
+
+    "Pepper,_bell___Bacterial_spot": "Start with clean, disease-free seeds or seedlings. After harvest, remove and destroy all plant debris or bury it deep in the soil to prevent the bacteria from returning next season.",
     "Pepper,_bell___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Potato___Early_blight": "Use certified disease-free seed potatoes; rotate crops and avoid planting potatoes in the same soil each year; apply appropriate fungicides at the first sign of disease and maintain good field sanitation.",
-    "Potato___Late_blight": "Use resistant cultivars and certified seed; apply protective fungicides regularly especially in cool, moist conditions; destroy volunteer potatoes and cull piles to reduce inoculum.",
+
+    "Potato___Early_blight": "Choose certified, disease-free seed potatoes. Don’t plant potatoes in the same spot every year. Remove infected leaves early and start fungicide treatments if spots appear. Keep your garden clean between seasons.",
+    "Potato___Late_blight": "Plant resistant potato types and always use healthy seed. Start protective fungicide sprays in cool, damp conditions. Remove any leftover or wild potatoes to stop the disease from coming back.",
     "Potato___healthy": HEALTHY_MESSAGE_MANAGEMENT,
+
     "Raspberry___healthy": HEALTHY_MESSAGE_MANAGEMENT,
+
     "Soybean___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Squash___Powdery_mildew": "Scout plants during cool wet conditions for any sign of spots; early application of an appropriate protective fungicide can help limit the development of the disease if spots are found, cucurbits should be rotated with other crops every 2 years to prevent the build-up of inoculum; crop debris should be removed and destroyed after harvest",
-    "Strawberry___Leaf_scorch": "Plant resistant varieties; regular renewal of plants; plant in an area with good air circulation and drainage in full sun; remove all foliage from plants at harvest; application of appropriate foliar fungicide may be required to provide control.",
+
+    "Squash___Powdery_mildew": "Check your plants regularly for white powdery spots, especially in cool, wet conditions. Remove any infected leaves and spray with a mild fungicide early on. Rotate squash with other crops every 2 years, and clean up all plant debris after harvest.",
+    
+    "Strawberry___Leaf_scorch": "Choose resistant strawberry varieties. Make sure your plants get plenty of sunshine and fresh air. After harvest, trim off old leaves. A gentle foliar fungicide spray may be helpful if symptoms persist.",
     "Strawberry___healthy": HEALTHY_MESSAGE_MANAGEMENT,
-    "Tomato___Bacterial_spot": "Use only certified seed and healthy transplants; remove all crop debris from planting area; do not use sprinkler irrigation, instead water from base of plant; rotate crops.",
-    "Tomato___Early_blight": "Apply appropriate fungicide at first sign of disease; destroy any volunteer solanaceous plants (tomato, potato, nightshade etc); practice crop rotation",
-    "Tomato___Late_blight": "Plant resistant varieties; if signs of disease are present or if rainy conditions are likely or if using overhead irrigation appropriate fungicides should be applied.",
-    "Tomato___Leaf_Mold": "Grow available resistant varieties. Avoid leaf wetting and overhead application of water. Follow proper spacing to provide good air circulation around the plants. Remove the infected plant debris and burn them. If the disease is severe scary suitable fungicide.",
-    "Tomato___Septoria_leaf_spot": "Ensure all tomato crop debris is removed and destroyed in Fall or plowed deep into soil; plant only disease-free material; avoid overhead irrigation; stake plants to increase air circulation through the foliage; apply appropriate fungicide if necessary.",
-    "Tomato___Spider_mites Two-spotted_spider_mite": "In the home garden, spraying plants with a strong jet of water can help reduce buildup of spider mite populations; if mites become problematic apply insecticidal soap to plants; certain chemical insecticides may actually increase mite populations by killing off natural enemies and promoting mite reproduction.",
-    "Tomato___Target_Spot": "Remove the plant debris and burn them. Avoid over application of nitrogen fertilizer. If the disease is severe spray suitable fungicides.",
-    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "Grow available resistant varieties. Transplant only disease and whiteflies free seedlings. Remove the infected plants and burn them. Keep the field free from weeds. Use yellow sticky traps to monitor and control whiteflies. If the insect infestation is severe spray suitable insecticides.",
-    "Tomato___Tomato_mosaic_virus": "Plant varieties that are resistant to the virus; heat treating seeds at 70°C (158°F) for 4 days or at 82–85°C (179.6–185°F) for 24 hours will help to eliminate any virus particles on the surface of the seeds; soaking seed for 15 min in 100 g/l of tri-sodium phosphate solution (TSP) can also eliminate virus particles - seeds should be rinsed thoroughly and laid out to dry after this treatment; if the virus is confirmed in the field, infected plants should be removed and destroyed to limit further spread; plant tomato on a 2-year rotation, avoiding susceptible crops such as peppers, eggplant, cucurbits and tobacco; disinfect all equipment when moving from infected areas of the field.",
+
+    "Tomato___Bacterial_spot": "Always start with healthy seedlings or certified seeds. Avoid watering leaves—water at the base of the plant instead. Remove infected plants and rotate crops every year. Clean up all plant waste at the end of the season.",
+    "Tomato___Early_blight": "Apply a fungicide as soon as you see the first dark spots. Remove any nearby wild plants like nightshade or potatoes. Change planting locations each season to stop the disease from coming back.",
+    "Tomato___Late_blight": "Grow blight-resistant varieties. If you see signs or expect rainy weather, use fungicides early. Water your plants at the base and avoid wetting the leaves.",
+    "Tomato___Leaf_Mold": "Use resistant tomato types and avoid wetting the leaves. Give plants enough space to allow airflow. Remove and burn infected leaves. If needed, use a gentle fungicide to stop the mold.",
+    "Tomato___Septoria_leaf_spot": "Clear out old tomato plants in fall and bury the debris deep in the soil. Avoid overhead watering. Support your plants to improve airflow. Apply fungicide if the disease appears.",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "Spray your plants with water to knock off mites. In case of infestation, use insecticidal soap. Be careful with chemical insecticides—they might worsen the problem by killing helpful insects.",
+    "Tomato___Target_Spot": "Remove infected plant debris and destroy it. Avoid using too much fertilizer. If the disease spreads, use a safe fungicide.",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "Use resistant tomato plants and make sure transplants are free from disease and whiteflies. Remove and destroy infected plants. Keep weeds under control and use yellow sticky traps or natural sprays to manage insects.",
+    "Tomato___Tomato_mosaic_virus": "Use virus-resistant seeds or treat seeds with heat or a special soak. Always wash your tools and avoid planting tomatoes next to related plants like peppers or tobacco. Remove infected plants immediately to stop the virus from spreading.",
     "Tomato___healthy": HEALTHY_MESSAGE_MANAGEMENT,
 }
+

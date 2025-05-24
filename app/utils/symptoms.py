@@ -3,42 +3,56 @@
 HEALTHY_MESSAGE_SYMPTOMS = "No visible symptoms of any disease or pest infestation. The plant appears healthy and vigorous, with normal growth and development."
 
 symptoms = {
-    "Apple___Apple_scab": "Yellow or chlorotic spots on leaves; dark olive green spots on leaves and fruit; may be a velvety growth on spots on undersides of leaves; twisting of leaves; distorted leaves; severely infected leaves turn yellow and drop from tree.",
-    "Apple___Black_rot": "Purple flecks or circular lesions which are brown in the centre and purple at margin; red flecks, purple lesions and/or brown black rings on fruit.",
-    "Apple___Cedar_apple_rust": "Bright orange or yellow patches on top side of leaves surrounded by a red band and small black spots in the center; by mid-summer, cup-like structures called aecia form on the leaf undersides; these become covered in tubular structures from which spores are released.",
+    "Apple___Apple_scab": "Leaves may develop small yellow or light green spots that become dark olive with a velvety texture. Over time, the leaves might twist or fall off, and the fruit can show dark, rough blemishes.",
+    "Apple___Black_rot": "Purple or reddish spots with dark centers can appear on leaves and fruit. On apples, black rings form, and affected areas may become dry and shriveled.",
+    "Apple___Cedar_apple_rust": "Bright orange or yellow spots with red borders show on leaves, often followed by black dots or cup-like structures underneath. Spores may be released later in the season.",
     "Apple___healthy": HEALTHY_MESSAGE_SYMPTOMS,
+
     "Blueberry___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Cherry_(including_sour)___Powdery_mildew": "Light colored circular lesions on leaves inside tree canopy which develop a powdery appearance; lesions may coalesce to cover leaf; if infection is severe, leaves may blister and infected shoots may be distorted and stunted; infected fruits may have slightly depressed areas on the surface containing fungal hyphae (filamentous fungal structures)",
+
+    "Cherry_(including_sour)___Powdery_mildew": "Light-colored spots may appear on leaves inside the tree canopy, eventually becoming covered with a white, powdery coating. Leaves can curl, blister, or fall off. Fruit may show shallow, fuzzy patches.",
     "Cherry_(including_sour)___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": "Rectangular, tan to gray lesions on the leaves that run parallel to leaf veins; lesions may coalesce and cause blighting of large leaf areas; the disease thrives in warm, humid conditions and reduces photosynthesis, leading to lower yields.",
-    "Corn_(maize)___Common_rust_": "Small, round, golden to reddish-brown pustules (uredinia) on both upper and lower leaf surfaces; pustules may merge to form larger lesions; as disease progresses, leaves may turn yellow and die prematurely.",
-    "Corn_(maize)___Northern_Leaf_Blight": "Cigar-shaped, long, gray-green to tan lesions on the leaves; lesions enlarge and may merge, causing significant leaf blight; disease favored by cool, wet weather and can cause severe yield losses if not controlled.",
+
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": "Long, rectangular grayish or tan spots form between the leaf veins. These may merge and damage large areas of the leaf, reducing photosynthesis and overall plant health.",
+    "Corn_(maize)___Common_rust_": "Small, round rust-colored bumps appear on both sides of the leaves. These may grow and merge into large patches. Leaves may yellow and die early.",
+    "Corn_(maize)___Northern_Leaf_Blight": "Long, gray-green or tan lesions shaped like cigars appear on leaves. These may expand and connect, causing widespread leaf damage.",
     "Corn_(maize)___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Grape___Black_rot": "Brown lesions on the leaves that develop black dots (pycnidia); grapes have light spots that eventually form pycnidia; grapes harden and turn black, while still remaining on the vine",
-    "Grape___Esca_(Black_Measles)": "Symptom appears on leaves, trunk, canes and berries. On leaves we will see intervenaial striping looks like tiger strips. White cultivars shows chlorotic and necrotic strips where as red cultivars shows red areas and necrotic strips. On berries we will see superficial spots and later may coalesce making berries appear black. Trunk/arm/cordons shows dark brown black vascular streaking and oozes dark sap when we cut trunk. Some time this measles in associate with numerous secondary wood rotting fungi which decorate the vineyard completely.",
-    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": "On leaf surface we will see lesions which are irregularly shaped (2 to 25 mm in diameter). Initially lesions are dull red to brown in color turn black later. If disease is severe this lesions may coalesce. On berries we can see symptom similar to black rot but the entire clusters will collapse.",
+
+    "Grape___Black_rot": "Brown spots with tiny black dots form on leaves. Grapes develop light areas that darken and harden, turning black while remaining attached to the vine.",
+    "Grape___Esca_(Black_Measles)": "Leaves show stripes or blotches that look like tiger patterns. Berries develop dark patches and shrivel. The trunk may show dark sap and rot inside, especially in older vines.",
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": "Leaves develop irregular dark spots that darken over time. In severe cases, entire clusters of berries can collapse, and lesions may cover much of the leaf surface.",
     "Grape___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Orange___Haunglongbing_(Citrus_greening)": "Yellowing of leaf veins and adjacent tissues; blotchy, asymmetrical chlorosis on leaves; leaf drop, twig dieback, stunted growth; fruit remains green, misshapen, and bitter-tasting with aborted seeds; tree may decline and die over several years.",
-    "Peach___Bacterial_spot": "Water soaked, angular gray lesions on the underside of the leaves which turn purple and necrotic in the center and cause a shot hole appearance if lesion center drops out; if lesions are present in high numbers on leaves they may become chlorotic and drop from tree; cankers develop on twigs either as raised blisters or as a dark area surrounding a bud that fails to open; in years of severe infection the entire fruit crop may be lost; lesions on fruit begin as small brown, water-soaked lesions which may exude gum",
+
+    "Orange___Haunglongbing_(Citrus_greening)": "Leaves develop uneven yellowing and blotches. Fruits stay green, taste bitter, and have deformed shapes. The tree may lose leaves and grow poorly over time, eventually dying.",
+    
+    "Peach___Bacterial_spot": "Gray or purple spots appear on leaves, often with a hole in the middle. Leaves may yellow and fall off. Twigs can develop blisters, and fruits may show brown lesions that ooze gum.",
     "Peach___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Pepper,_bell___Bacterial_spot": "Water-soaked lesions that dry out and turn brown forming on the underside of the leaves; raised brown cankers on stems; cracked brown lesions on fruit.",
+
+    "Pepper,_bell___Bacterial_spot": "Leaves develop brown, water-soaked spots that dry and crack. Stems may show rough patches, and fruits may develop scabby lesions.",
     "Pepper,_bell___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Potato___Early_blight": "Dark brown to black concentric spots ('target spots') on older leaves; surrounding tissue may turn yellow; lesions enlarge and cause leaf drop, reducing photosynthesis and tuber yield; can also affect stems and fruit.",
-    "Potato___Late_blight": "Large, irregularly shaped, water-soaked lesions on leaves and stems that quickly turn brown and necrotic; white, fluffy fungal growth may be visible on undersides of leaves in humid conditions; affected tubers develop brown, granular rot.",
+
+    "Potato___Early_blight": "Older leaves show dark brown spots with rings inside, resembling a target. Yellowing spreads around the spots, and leaves may fall off, reducing plant growth.",
+    "Potato___Late_blight": "Large, soft-looking brown or black patches appear on leaves and stems. In humid weather, white fungal growth is visible underneath. Tubers may rot and develop brown, grainy areas.",
     "Potato___healthy": HEALTHY_MESSAGE_SYMPTOMS,
+
     "Raspberry___healthy": HEALTHY_MESSAGE_SYMPTOMS,
+
     "Soybean___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Squash___Powdery_mildew": "White powdery growth on the upper surfaces of leaves and stems; infected areas stunted and distorted.",
-    "Strawberry___Leaf_scorch": "Irregular dark purple or brown blotches on upper leaf surface which may colaesce to produce large purplish brown patches; tissue between blotches may turn purple or red; lesions may also develop on flowers and fruits; affected petals may wither and drop from plant; lesions may girdle peduncles causing death of fruit.",
+
+    "Squash___Powdery_mildew": "White, dusty patches appear on leaves and stems. Affected parts may become distorted and stop growing properly.",
+
+    "Strawberry___Leaf_scorch": "Dark purple or brown blotches appear on leaves, sometimes merging into large patches. The tissue between blotches may turn red or purple. Lesions can spread to flowers and fruit.",
     "Strawberry___healthy": HEALTHY_MESSAGE_SYMPTOMS,
-    "Tomato___Bacterial_spot": "Bacterial spot lesions starts out as small water-soaked spots; lesions become more numerous and coalesce to form necrotic areas on the leaves giving them a blighted appearance; of leaves drop from the plant severe defoliation can occur leaving the fruit susceptible to sunscald; mature spots have a greasy appearance and may appear transparent when held up to light; centers of lesions dry up and fall out of the leaf; blighted leaves often remain attached to the plant and give it a blighted appearance; fruit infections start as a slightly raised blister; lesions may have a faint halo which eventually disappears; lesions on fruit may have a raised margin and sunken center which gives the fruit a scabby appearance.",
-    "Tomato___Early_blight": "Dark brown spots with concentric rings (target spots) on older leaves; surrounding yellowing tissue; defoliation begins from the bottom of the plant upwards; lesions may also form on stems and fruit near calyx.",
-    "Tomato___Late_blight": "Large, irregular, water-soaked lesions on leaves that rapidly turn brown and necrotic; white fungal growth on undersides of leaves under humid conditions; fruit develops firm, dark brown to black lesions with greasy appearance; rapid plant collapse possible.",
-    "Tomato___Leaf_Mold": "The older leaves exhibit pale greenish to yellow spots (without distinguishable margins) on upper surface. Whereas the lower portion of this spots exhibit green to brown velvety fungal growth. As the disease progress the spots may coalesce and appear brown. The infected leaves become wither and die but stay attached to the plant. The fungus also infects flowers and fruits. The affected flowers become black and drop off. The affected fruit intially shows smooth black irregular area on the stem end but later it becomes sunken, leathery and dry.",
-    "Tomato___Septoria_leaf_spot": "Symptoms may occur at any stage of tomato development and begin as small, water-soaked spots or circular grayish-white spots on the underside of older leaves; spots have a grayish center and a dark margin and they may colasece; fungal fruiting bodies are visible as tiny black specks in the center of spot; spots may also appear on stems, fruit calyxes, and flowers.",
-    "Tomato___Spider_mites Two-spotted_spider_mite": "Leaves stippled with yellow; leaves may appear bronzed; webbing covering leaves; mites may be visible as tiny moving dots on the webs or underside of leaves, best viewed using a hand lens; usually not spotted until there are visible symptoms on the plant; leaves turn yellow and may drop from plant.",
-    "Tomato___Target_Spot": "The fungus infects all parts of plant. Infected leaves shows small, pinpoint, water soaked spots initially. As the disease progress the spots enlarge to become necrotic lesions with conspicuous concentric circles, dark margins and light brown centers. Whereas the fruits exhibit brown, slightly sunken flecks in the beginning but later the lesions become large pitted appearance.",
-    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "The infected leaves become reduced in size, curl upward, appear crumpled and show yellowing of veins and leaf margins. The internodes become shorter and whole plant appear stunted and bushy. The whole plant stand erect with only upright growth. The flowers may not develop and drop off.",
-    "Tomato___Tomato_mosaic_virus": "Symptoms can occur at any growth stage and any part of the plant can be affected; infected leaves generally exhibit a dark green mottling or mosaic; some strains of the virus can cause yellow mottling on the leaves; young leaves may be stunted or distorted; severely infected leaves may have raised green areas; fruit yields are reduced in infected plants; green fruit may have yellow blotches or necrotic spots; dark necrotic streaks may appear on the stems, petioles leaves and fruit.",
+
+    "Tomato___Bacterial_spot": "Small, wet-looking spots appear on leaves, later becoming dry and brown. Leaves may look scorched and fall off. Fruits may develop bumpy, sunken lesions.",
+    "Tomato___Early_blight": "Dark brown spots with rings form on older leaves. The surrounding tissue yellows, and lower leaves drop first. Stems and fruit may also show lesions.",
+    "Tomato___Late_blight": "Irregular dark patches form on leaves and stems, quickly turning brown. White mold can appear underneath leaves in humid weather. Fruit develops dark, greasy spots.",
+    "Tomato___Leaf_Mold": "Older leaves develop pale yellow spots on the top and dark, velvety patches underneath. Leaves may turn brown and die but stay attached. Flowers and fruits may also be affected.",
+    "Tomato___Septoria_leaf_spot": "Small gray-white spots with dark edges form on lower leaves, often spreading upward. Tiny black dots appear in the center. Stems and flowers may also show symptoms.",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "Leaves look speckled or bronzed and may have webbing. You may spot tiny mites on the undersides. Leaves can yellow and fall if infestation is severe.",
+    "Tomato___Target_Spot": "Tiny wet spots grow into brown, round lesions with light centers and dark edges. Fruit shows brown sunken spots with rough texture.",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "Leaves become small, curled, and yellow, especially around the edges. The plant may stop growing normally, and flowers may not form or fall off early.",
+    "Tomato___Tomato_mosaic_virus": "Leaves show a mottled, mosaic pattern in dark and light green. New growth may be twisted or stunted. Fruits can develop dark spots or yellow patches.",
     "Tomato___healthy": HEALTHY_MESSAGE_SYMPTOMS,
 }
+
