@@ -6,9 +6,16 @@ import json
 
 
 def load_model(path: str, classes: int):
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+    elif torch.backends.mps.is_available():
+        device = torch.device("mps")
+    else:
+        device = torch.device("cpu")
+
     model = models.regnet_y_400mf()
     model.fc = torch.nn.Linear(model.fc.in_features, classes)
-    model.load_state_dict(torch.load(path), strict=False)
+    model.load_state_dict(torch.load(path,  map_location=device), strict=False)
     model.eval()
     return model
 
